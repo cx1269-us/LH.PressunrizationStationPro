@@ -71,12 +71,22 @@ namespace LH.PressunrizationStationPro.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static byte[] DataPanel_20250703_092809 {
+        internal static System.Drawing.Bitmap DataPanel_20250703_092809 {
             get {
                 object obj = ResourceManager.GetObject("DataPanel_20250703_092809", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap DataPanel_20250703_0928091 {
+            get {
+                object obj = ResourceManager.GetObject("DataPanel_20250703_0928091", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -131,12 +141,12 @@ namespace LH.PressunrizationStationPro.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static byte[] ParamPanel {
+        internal static System.Drawing.Bitmap ParamPanel {
             get {
                 object obj = ResourceManager.GetObject("ParamPanel", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -151,12 +161,12 @@ namespace LH.PressunrizationStationPro.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static byte[] PumpPanel {
+        internal static System.Drawing.Bitmap PumpPanel {
             get {
                 object obj = ResourceManager.GetObject("PumpPanel", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -181,22 +191,42 @@ namespace LH.PressunrizationStationPro.Properties {
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static byte[] Sensor {
+        internal static System.Drawing.Bitmap Sensor {
             get {
                 object obj = ResourceManager.GetObject("Sensor", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
         /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static byte[] Tank {
+        internal static System.Drawing.Bitmap Sensor1 {
+            get {
+                object obj = ResourceManager.GetObject("Sensor1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Sensor2 {
+            get {
+                object obj = ResourceManager.GetObject("Sensor2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap Tank {
             get {
                 object obj = ResourceManager.GetObject("Tank", resourceCulture);
-                return ((byte[])(obj));
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         

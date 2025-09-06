@@ -99,5 +99,20 @@
   <ItemGroup>
     <None Include="bin\Debug\Image\Border_20250703_092809.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\ParamPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\Tank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\Sensor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\PumpPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\DataPanel_20250703_092809.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

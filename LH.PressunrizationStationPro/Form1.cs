@@ -16,5 +16,45 @@ namespace LH.PressunrizationStationPro
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xbdWave1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void xbdPump1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
