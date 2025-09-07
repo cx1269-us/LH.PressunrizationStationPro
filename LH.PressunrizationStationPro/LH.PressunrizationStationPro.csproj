@@ -56,6 +56,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="IniConfigHelper.cs" />
     <Compile Include="MeterShow.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -65,6 +66,7 @@
     <Compile Include="PanelDragger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="s7NetLib.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,10 +118,21 @@
     <None Include="bin\Debug\Image\DataPanel_20250703_092809.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\xbd.DataConvertLib\xbd.DataConvertLib.csproj">
+      <Project>{867237ad-51f4-4ca5-ad32-d68844cc9101}</Project>
+      <Name>xbd.DataConvertLib</Name>
+    </ProjectReference>
     <ProjectReference Include="..\xbd.s7netplus\xbd.s7netplus.csproj">
       <Project>{87dca77d-a82c-4ccd-8792-5e6cfb0cc765}</Project>
       <Name>xbd.s7netplus</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Communication\" />
+    <Folder Include="Data\" />
+    <Folder Include="Entity\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Tool\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

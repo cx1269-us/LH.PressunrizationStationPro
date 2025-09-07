@@ -87,6 +87,7 @@ namespace xbd.s7netplus.Types
                 {
                     Type elementType = property.PropertyType.GetElementType();
                     Array array = (Array)property.GetValue(instance, null);
+
                     if (array.Length <= 0)
                     {
                         throw new Exception("Cannot determine size of class, because an array is defined which has no fixed size greater than zero.");
