@@ -30,21 +30,32 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MainPanel = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.xbdMotor2 = new xbd.ControlLib.xbdMotor();
             this.xbdFlowControl11 = new xbd.ControlLib.xbdFlowControl();
             this.xbdFlowControl9 = new xbd.ControlLib.xbdFlowControl();
             this.xbdFlowControl8 = new xbd.ControlLib.xbdFlowControl();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.xbdFlowControl10 = new xbd.ControlLib.xbdFlowControl();
             this.xbdFlowControl7 = new xbd.ControlLib.xbdFlowControl();
             this.label30 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
             this.xbdMotor1 = new xbd.ControlLib.xbdMotor();
+            this.label43 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label33 = new System.Windows.Forms.Label();
@@ -52,6 +63,10 @@
             this.xbdWave1 = new xbd.ControlLib.xbdWave();
             this.xbdToggle2 = new xbd.ControlLib.xbdToggle();
             this.xbdToggle1 = new xbd.ControlLib.xbdToggle();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.xbdValve2 = new xbd.ControlLib.xbdValve();
+            this.xbdValve1 = new xbd.ControlLib.xbdValve();
             this.xbdPump2 = new xbd.ControlLib.xbdPump();
             this.xbdPump1 = new xbd.ControlLib.xbdPump();
             this.xbdFlowControl6 = new xbd.ControlLib.xbdFlowControl();
@@ -60,19 +75,6 @@
             this.xbdFlowControl3 = new xbd.ControlLib.xbdFlowControl();
             this.xbdFlowControl4 = new xbd.ControlLib.xbdFlowControl();
             this.xbdFlowControl1 = new xbd.ControlLib.xbdFlowControl();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.xbdValve2 = new xbd.ControlLib.xbdValve();
-            this.xbdValve1 = new xbd.ControlLib.xbdValve();
             this.panel6 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
             this.label15 = new System.Windows.Forms.Label();
@@ -121,8 +123,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.lab_topName = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
             this.MainPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -194,6 +194,17 @@
             this.MainPanel.Name = "MainPanel";
             this.MainPanel.Size = new System.Drawing.Size(1280, 643);
             this.MainPanel.TabIndex = 1;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::LH.PressunrizationStationPro.Properties.Resources.Sensor;
+            this.pictureBox3.Location = new System.Drawing.Point(835, 361);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(46, 52);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
             // 
             // xbdMotor2
             // 
@@ -271,6 +282,40 @@
             this.xbdFlowControl8.Size = new System.Drawing.Size(23, 71);
             this.xbdFlowControl8.TabIndex = 8;
             // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::LH.PressunrizationStationPro.Properties.Resources.Border_20250703_092809;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(672, 346);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(62, 30);
+            this.button6.TabIndex = 1;
+            this.button6.Text = "停止";
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::LH.PressunrizationStationPro.Properties.Resources.Border_20250703_092809;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(539, 346);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(62, 30);
+            this.button5.TabIndex = 1;
+            this.button5.Text = "停止";
+            this.button5.UseVisualStyleBackColor = false;
+            // 
             // xbdFlowControl10
             // 
             this.xbdFlowControl10.BackColor = System.Drawing.Color.Transparent;
@@ -334,6 +379,17 @@
             this.label32.TabIndex = 4;
             this.label32.Text = "出水温度";
             this.label32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label44
+            // 
+            this.label44.Font = new System.Drawing.Font("宋体", 11F);
+            this.label44.ForeColor = System.Drawing.Color.Lime;
+            this.label44.Location = new System.Drawing.Point(821, 313);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(76, 24);
+            this.label44.TabIndex = 4;
+            this.label44.Text = "出水压力";
+            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label35
             // 
@@ -401,6 +457,78 @@
             this.label26.Text = "水箱液位";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label42.ForeColor = System.Drawing.Color.White;
+            this.label42.Location = new System.Drawing.Point(847, 114);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(61, 21);
+            this.label42.TabIndex = 7;
+            this.label42.Text = "2#水箱";
+            this.label42.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label41.ForeColor = System.Drawing.Color.White;
+            this.label41.Location = new System.Drawing.Point(593, 116);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(61, 21);
+            this.label41.TabIndex = 7;
+            this.label41.Text = "1#水箱";
+            this.label41.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label40.ForeColor = System.Drawing.Color.White;
+            this.label40.Location = new System.Drawing.Point(479, 290);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(77, 21);
+            this.label40.TabIndex = 7;
+            this.label40.Text = "1#循环泵";
+            this.label40.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label38.ForeColor = System.Drawing.Color.White;
+            this.label38.Location = new System.Drawing.Point(607, 289);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(77, 21);
+            this.label38.TabIndex = 7;
+            this.label38.Text = "2#循环泵";
+            this.label38.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label39.ForeColor = System.Drawing.Color.White;
+            this.label39.Location = new System.Drawing.Point(485, 9);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(58, 21);
+            this.label39.TabIndex = 7;
+            this.label39.Text = "进水阀";
+            this.label39.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Font = new System.Drawing.Font("微软雅黑", 12F);
+            this.label37.ForeColor = System.Drawing.Color.White;
+            this.label37.Location = new System.Drawing.Point(359, 331);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(58, 21);
+            this.label37.TabIndex = 7;
+            this.label37.Text = "出水阀";
+            this.label37.Click += new System.EventHandler(this.label7_Click);
+            // 
             // xbdMotor1
             // 
             this.xbdMotor1.Font = new System.Drawing.Font("微软雅黑", 10.5F);
@@ -410,6 +538,18 @@
             this.xbdMotor1.PumpState = xbd.ControlLib.PumpState.停止;
             this.xbdMotor1.Size = new System.Drawing.Size(61, 109);
             this.xbdMotor1.TabIndex = 13;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("DigifaceWide", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.ForeColor = System.Drawing.Color.White;
+            this.label43.Location = new System.Drawing.Point(828, 336);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(56, 23);
+            this.label43.TabIndex = 7;
+            this.label43.Text = "2.52";
+            this.label43.Click += new System.EventHandler(this.label7_Click);
             // 
             // label36
             // 
@@ -516,6 +656,57 @@
             this.xbdToggle1.TabIndex = 11;
             this.xbdToggle1.Texts = null;
             this.xbdToggle1.TrueColor = System.Drawing.Color.LimeGreen;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Enabled = false;
+            this.pictureBox2.Image = global::LH.PressunrizationStationPro.Properties.Resources.Tank;
+            this.pictureBox2.Location = new System.Drawing.Point(843, 137);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(162, 91);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 10;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Enabled = false;
+            this.pictureBox1.Image = global::LH.PressunrizationStationPro.Properties.Resources.Tank;
+            this.pictureBox1.Location = new System.Drawing.Point(591, 137);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(162, 91);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 10;
+            this.pictureBox1.TabStop = false;
+            // 
+            // xbdValve2
+            // 
+            this.xbdValve2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xbdValve2.BackgroundImage")));
+            this.xbdValve2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.xbdValve2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.xbdValve2.IsVertical = false;
+            this.xbdValve2.Location = new System.Drawing.Point(364, 357);
+            this.xbdValve2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.xbdValve2.Name = "xbdValve2";
+            this.xbdValve2.Size = new System.Drawing.Size(44, 52);
+            this.xbdValve2.State = false;
+            this.xbdValve2.TabIndex = 9;
+            this.xbdValve2.ValveName = null;
+            // 
+            // xbdValve1
+            // 
+            this.xbdValve1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xbdValve1.BackgroundImage")));
+            this.xbdValve1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.xbdValve1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.xbdValve1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.xbdValve1.IsVertical = false;
+            this.xbdValve1.Location = new System.Drawing.Point(489, 31);
+            this.xbdValve1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.xbdValve1.Name = "xbdValve1";
+            this.xbdValve1.Size = new System.Drawing.Size(44, 52);
+            this.xbdValve1.State = false;
+            this.xbdValve1.TabIndex = 9;
+            this.xbdValve1.ValveName = null;
             // 
             // xbdPump2
             // 
@@ -687,174 +878,6 @@
             this.xbdFlowControl1.Size = new System.Drawing.Size(698, 10);
             this.xbdFlowControl1.TabIndex = 7;
             // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label37.ForeColor = System.Drawing.Color.White;
-            this.label37.Location = new System.Drawing.Point(359, 331);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(58, 21);
-            this.label37.TabIndex = 7;
-            this.label37.Text = "出水阀";
-            this.label37.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label38.ForeColor = System.Drawing.Color.White;
-            this.label38.Location = new System.Drawing.Point(607, 289);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(77, 21);
-            this.label38.TabIndex = 7;
-            this.label38.Text = "2#循环泵";
-            this.label38.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label39.ForeColor = System.Drawing.Color.White;
-            this.label39.Location = new System.Drawing.Point(485, 9);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(58, 21);
-            this.label39.TabIndex = 7;
-            this.label39.Text = "进水阀";
-            this.label39.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label40.ForeColor = System.Drawing.Color.White;
-            this.label40.Location = new System.Drawing.Point(479, 290);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(77, 21);
-            this.label40.TabIndex = 7;
-            this.label40.Text = "1#循环泵";
-            this.label40.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label41.ForeColor = System.Drawing.Color.White;
-            this.label41.Location = new System.Drawing.Point(593, 116);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(61, 21);
-            this.label41.TabIndex = 7;
-            this.label41.Text = "1#水箱";
-            this.label41.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Font = new System.Drawing.Font("微软雅黑", 12F);
-            this.label42.ForeColor = System.Drawing.Color.White;
-            this.label42.Location = new System.Drawing.Point(847, 114);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(61, 21);
-            this.label42.TabIndex = 7;
-            this.label42.Text = "2#水箱";
-            this.label42.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox3.Image = global::LH.PressunrizationStationPro.Properties.Resources.Sensor;
-            this.pictureBox3.Location = new System.Drawing.Point(835, 361);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 52);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
-            // button6
-            // 
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.BackgroundImage = global::LH.PressunrizationStationPro.Properties.Resources.Border_20250703_092809;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(672, 346);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(62, 30);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "停止";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.BackgroundImage = global::LH.PressunrizationStationPro.Properties.Resources.Border_20250703_092809;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(539, 346);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(62, 30);
-            this.button5.TabIndex = 1;
-            this.button5.Text = "停止";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Enabled = false;
-            this.pictureBox2.Image = global::LH.PressunrizationStationPro.Properties.Resources.Tank;
-            this.pictureBox2.Location = new System.Drawing.Point(843, 137);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(162, 91);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Enabled = false;
-            this.pictureBox1.Image = global::LH.PressunrizationStationPro.Properties.Resources.Tank;
-            this.pictureBox1.Location = new System.Drawing.Point(591, 137);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(162, 91);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 10;
-            this.pictureBox1.TabStop = false;
-            // 
-            // xbdValve2
-            // 
-            this.xbdValve2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xbdValve2.BackgroundImage")));
-            this.xbdValve2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.xbdValve2.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.xbdValve2.IsVertical = false;
-            this.xbdValve2.Location = new System.Drawing.Point(364, 357);
-            this.xbdValve2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.xbdValve2.Name = "xbdValve2";
-            this.xbdValve2.Size = new System.Drawing.Size(44, 52);
-            this.xbdValve2.State = false;
-            this.xbdValve2.TabIndex = 9;
-            this.xbdValve2.ValveName = null;
-            // 
-            // xbdValve1
-            // 
-            this.xbdValve1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("xbdValve1.BackgroundImage")));
-            this.xbdValve1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.xbdValve1.Font = new System.Drawing.Font("微软雅黑", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.xbdValve1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.xbdValve1.IsVertical = false;
-            this.xbdValve1.Location = new System.Drawing.Point(489, 31);
-            this.xbdValve1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.xbdValve1.Name = "xbdValve1";
-            this.xbdValve1.Size = new System.Drawing.Size(44, 52);
-            this.xbdValve1.State = false;
-            this.xbdValve1.TabIndex = 9;
-            this.xbdValve1.ValveName = null;
-            // 
             // panel6
             // 
             this.panel6.BackgroundImage = global::LH.PressunrizationStationPro.Properties.Resources.ParamPanel;
@@ -939,7 +962,7 @@
             this.label12.Size = new System.Drawing.Size(109, 21);
             this.label12.TabIndex = 7;
             this.label12.Text = "1#水箱压力：";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
+            //this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label25
             // 
@@ -1293,7 +1316,8 @@
             // 
             // label3
             // 
-            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label3.Font = new System.Drawing.Font("微软雅黑", 11F);
             this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label3.Location = new System.Drawing.Point(46, 148);
             this.label3.Name = "label3";
@@ -1348,7 +1372,8 @@
             // 
             // label2
             // 
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 11F);
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.label2.Location = new System.Drawing.Point(46, 146);
             this.label2.Name = "label2";
@@ -1495,29 +1520,6 @@
             this.lab_topName.TabIndex = 0;
             this.lab_topName.Text = "智慧加压站SCAD监控系统";
             this.lab_topName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("DigifaceWide", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.ForeColor = System.Drawing.Color.White;
-            this.label43.Location = new System.Drawing.Point(828, 336);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(56, 23);
-            this.label43.TabIndex = 7;
-            this.label43.Text = "2.52";
-            this.label43.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // label44
-            // 
-            this.label44.Font = new System.Drawing.Font("宋体", 11F);
-            this.label44.ForeColor = System.Drawing.Color.Lime;
-            this.label44.Location = new System.Drawing.Point(821, 313);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(76, 24);
-            this.label44.TabIndex = 4;
-            this.label44.Text = "出水压力";
-            this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 

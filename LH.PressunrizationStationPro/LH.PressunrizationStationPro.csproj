@@ -62,6 +62,7 @@
     <Compile Include="MeterShow.Designer.cs">
       <DependentUpon>MeterShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="PanelDragger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -113,6 +114,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\Image\DataPanel_20250703_092809.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\xbd.s7netplus\xbd.s7netplus.csproj">
+      <Project>{87dca77d-a82c-4ccd-8792-5e6cfb0cc765}</Project>
+      <Name>xbd.s7netplus</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
